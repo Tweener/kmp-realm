@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Kmplate_Library" // TODO change here
+rootProject.name = "kmp-realm"
 include(":kmp-realm")
