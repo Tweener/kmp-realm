@@ -46,5 +46,6 @@ jobs:
           arguments: ${{ matrix.target }}
 
   notify:
+    needs: build
     uses: ./.github/workflows/notify.yml
     secrets: inherit
