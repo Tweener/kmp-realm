@@ -48,4 +48,5 @@ jobs:
   notify:
     needs: build
     uses: ./.github/workflows/notify.yml
-    secrets: inherit
+    secrets:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
