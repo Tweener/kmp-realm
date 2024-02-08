@@ -73,10 +73,4 @@ jobs:
             -PsonatypeUsername=${{ secrets.OSSRH_USERNAME }}
             -PsonatypePassword=${{ secrets.OSSRH_PASSWORD }}
             -PsonatypeStagingProfileId=${{ secrets.OSSRH_STAGING_PROFILE_ID }}
-            
-  notify:
-    needs: publish
-    uses: ./.github/workflows/notify.yml
-    secrets:
-      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       
