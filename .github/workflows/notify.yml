@@ -1,4 +1,4 @@
-name: kmp-realm build
+name: Notify build status on Slack
 
 on:
   workflow_call:
