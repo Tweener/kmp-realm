@@ -49,12 +49,7 @@ jobs:
           arguments: ${{ matrix.target }}
 
   notify:
-    #    needs: build
+    needs: build
     uses: ./.github/workflows/notify.yml
     secrets:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo ${{ secrets.SLACK_WEBHOOK_URL }}
