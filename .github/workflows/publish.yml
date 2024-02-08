@@ -12,6 +12,8 @@ on:
 jobs:
   build-release:
     uses: ./.github/workflows/buildRelease.yml
+    secrets:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
   publish:
     needs: build-release
@@ -73,4 +75,3 @@ jobs:
             -PsonatypeUsername=${{ secrets.OSSRH_USERNAME }}
             -PsonatypePassword=${{ secrets.OSSRH_PASSWORD }}
             -PsonatypeStagingProfileId=${{ secrets.OSSRH_STAGING_PROFILE_ID }}
-      
