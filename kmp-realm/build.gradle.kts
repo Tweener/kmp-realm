@@ -1,6 +1,7 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    id("io.realm.kotlin")
     id("org.jetbrains.dokka")
     id("maven-publish")
     id("signing")
@@ -78,6 +79,9 @@ kotlin {
 
             // Coroutines
             implementation(Dependencies.Libraries.Coroutines.core)
+
+            // Realm
+            implementation(Dependencies.Libraries.realm)
         }
 
         androidMain.dependencies {

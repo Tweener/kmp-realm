@@ -16,6 +16,7 @@ object Dependencies {
         const val annotations = "1.7.1"
         const val coroutines = "1.7.3"
         const val napier = "2.6.1"
+        const val realm = "1.13.0"
 
         object Realm {
             const val packageName = "com.tweener.realm"
@@ -61,6 +62,7 @@ object Dependencies {
 
         const val napier = "io.github.aakira:napier:${Versions.napier}"
         const val annotations = "androidx.annotation:annotation:${Versions.annotations}"
+        const val realm = "io.realm.kotlin:library-base:${Versions.realm}"
 
         object Tweener {
             const val common = "io.github.tweener:kmp-common:${Versions.Tweener.common}"
