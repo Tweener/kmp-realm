@@ -12,6 +12,8 @@ on:
 jobs:
   build:
     uses: ./.github/workflows/buildDebug.yml
+    secrets:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
   publish:
     needs: build
