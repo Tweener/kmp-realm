@@ -31,11 +31,11 @@ id("io.realm.kotlin")
 
 ```groovy
 val realmDatabse = RealmDatabase(
-        schema = setOf(
-                // Here, add all your classes that extend `RealmObject`
-                RealmUserModel::class, // This is an example. RealmUserModel extends RealmObject
-                ...
-        )
+  schema = setOf(
+    // Here, add all your classes that extend `RealmObject`
+    RealmUserModel::class, // This is an example. RealmUserModel extends RealmObject
+    ...
+  )
 )
 ```
 
