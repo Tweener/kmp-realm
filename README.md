@@ -16,7 +16,7 @@ is: [![](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fs01.o
 2️⃣ Add the Realm plugin dependency to the root's `build.gradle.kts`:
 
 ```groovy
-id("io.realm.kotlin").version($kmp - realm_version).apply(false)
+id("io.realm.kotlin").version($kmp-realm_version).apply(false)
 ```
 
 3️⃣ Apply the Realm plugin to all modules that declare `RealmObject`s:
@@ -43,10 +43,10 @@ val realmDatabse = RealmDatabase(
 
 ```groovy
 // Get all users synchronously
-realmDatabase.getAll < RealmUserModel > ()
+realmDatabase.getAll<RealmUserModel>()
 
 // Get all users asynchronously, using Kotlin Flows
-realmDatabase.getAllAsFlow < RealmUserModel > ()
+realmDatabase.getAllAsFlow<RealmUserModel>()
 
 // Find by property
 realmDatabase.findByProperty(propertyName = "name", propertyValue = "John")
