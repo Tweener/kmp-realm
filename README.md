@@ -16,7 +16,7 @@ is: [![](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fs01.o
 2️⃣ Add the Realm plugin dependency to the root's `build.gradle.kts`:
 
 ```groovy
-id("io.realm.kotlin").version($kmp-realm_version).apply(false)
+id("io.realm.kotlin").version("1.13.0").apply(false)
 ```
 
 3️⃣ Apply the Realm plugin to all modules that declare `RealmObject`s:
