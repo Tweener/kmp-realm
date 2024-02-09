@@ -20,7 +20,7 @@ object Dependencies {
 
         object Realm {
             const val packageName = "com.tweener.realm"
-            const val versionName = "1.0.0"
+            const val versionName = "1.0.1"
             const val namespace = "$packageName.android"
             const val compileSDK = 34
             const val minSDK = 24

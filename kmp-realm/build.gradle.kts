@@ -81,7 +81,7 @@ kotlin {
             implementation(Dependencies.Libraries.Coroutines.core)
 
             // Realm
-            implementation(Dependencies.Libraries.realm)
+            api(Dependencies.Libraries.realm)
         }
 
         androidMain.dependencies {
