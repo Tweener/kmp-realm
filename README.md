@@ -11,7 +11,7 @@ implementation('io.github.tweener:kmp-realm:$kmp-realm_version')
 ```
 
 _The latest version
-is: [![](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fs01.oss.sonatype.org%2Fservice%2Flocal%2Frepo_groups%2Fpublic%2Fcontent%2Fio%2Fgithub%2Ftweener%2Fkmp-realm%2Fmaven-metadata.xml)](https://central.sonatype.com/artifact/io.github.tweener/czan)_
+is: [![](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fs01.oss.sonatype.org%2Fservice%2Flocal%2Frepo_groups%2Fpublic%2Fcontent%2Fio%2Fgithub%2Ftweener%2Fkmp-realm%2Fmaven-metadata.xml)](https://central.sonatype.com/artifact/io.github.tweener/kmp-realm)_
 
 2️⃣ Add the Realm plugin dependency to the root's `build.gradle.kts`:
 
