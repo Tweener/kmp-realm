@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is no longer supported or updated. It has been migrated as part of a BoM here: [kmp-realm](https://github.com/Tweener/kmp-bom/tree/main/kmp-realm).
+
 # kmp-realm
 
 kmp-realm a Kotlin Multiplaform library which wraps [Kotlin Realm](https://github.com/realm/realm-kotlin) with pre-configuration.
